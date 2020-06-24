@@ -1,2 +1,2 @@
-# sortingAlgorithms
-a repository to store all the codes of the sorting algorithms that I've encountered
+# Algorithms
+a repository to store all the codes of the algorithms that I've encountered
