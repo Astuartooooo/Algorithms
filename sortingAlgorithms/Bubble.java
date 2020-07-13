@@ -1,6 +1,3 @@
-package sortingAlg;
-
-import static sortingAlg.Swap.*;
 
 public class Bubble {
     public static void sort(double[] arr) {

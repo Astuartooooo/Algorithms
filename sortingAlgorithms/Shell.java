@@ -1,4 +1,4 @@
-package sortingAlg;
+
 
 public class Shell {
     public static void sort(int[] arr) {
@@ -7,7 +7,7 @@ public class Shell {
             for (int i = gap; i < len; i++) {
                 int j = i;
                 while ((j-gap)>=0 && arr[j-gap]>arr[j]){
-                    sortingAlg.Swap.arr(arr, j, j-gap);
+                    Swap.arr(arr, j, j-gap);
                     j = j-gap;
                 }
             }
@@ -20,7 +20,7 @@ public class Shell {
             for (int i = gap; i < len; i++) {
                 int j = i;
                 while ((j-gap)>=0 && arr[j-gap]>arr[j]){
-                    sortingAlg.Swap.arr(arr, j, j-gap);
+                    Swap.arr(arr, j, j-gap);
                     j = j-gap;
                 }
             }

@@ -1,4 +1,3 @@
-package sortingAlg;
 
 public class Insertion {
     public static void sort(int[] arr){

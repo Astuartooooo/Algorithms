@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tspimproved;
 
 /**
  *
@@ -15,7 +9,7 @@ import java.util.ArrayList;
 /*
     You can modify this file. but I will remove any modification of yours and replace the whole file with mine.
  */
-public class Main {
+public class TSP_Main {
     public static void main(String[] args) {
         ArrayList<City> cities = TSPSolver.readFile("D:\\Document\\cw2 files\\R110_1.TXT");
         cities = TSPSolver.solveProblem(cities);

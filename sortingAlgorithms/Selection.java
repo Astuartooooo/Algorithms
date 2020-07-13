@@ -1,4 +1,4 @@
-package sortingAlg;
+
 
 public class Selection {
     public static void sort(double[] arr) {

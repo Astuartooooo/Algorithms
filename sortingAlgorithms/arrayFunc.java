@@ -1,4 +1,3 @@
-package sortingAlg;
 
 
 public class arrayFunc {
@@ -28,15 +27,17 @@ public class arrayFunc {
         return result;
     }
 
-    public static void number(int[] arr){
+    public static void printArr(int[] arr){
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+",");
         }
+        System.out.println();
     }
-    public static void number(double[] arr){
+    public static void printArr(double[] arr){
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+",");
         }
+        System.out.println();
     }
 
     public static int[] gint(int num, int lowbound, int upbound){
