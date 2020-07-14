@@ -20,8 +20,8 @@ public class Merge {
     }
 
     public static int[] merge(int[] left, int[] right){
-        int llen = left.length,rlen = right.length,tlen = llen + rlen;
-        int[] result = new int[tlen];
+        int llen = left.length,rlen = right.length;
+        int[] result = new int[llen + rlen];
         int i = 0,j = 0,k= 0;
         while (j <llen && k<rlen) result[i++] = (left[j]<right[k])? left[j++]:right[k++];
         while (k<rlen) result[i++] = right[k++];
@@ -29,8 +29,8 @@ public class Merge {
         return result;
     }
     public static double[] merge(double[] left, double[] right){
-        int llen = left.length,rlen = right.length,tlen = llen + rlen;
-        double[] result = new double[tlen];
+        int llen = left.length,rlen = right.length;
+        double[] result = new double[llen + rlen];
         int i = 0,j = 0,k= 0;
         while (j <llen && k<rlen) result[i++] = (left[j]<right[k])? left[j++]:right[k++];
         while (k<rlen) result[i++] = right[k++];
