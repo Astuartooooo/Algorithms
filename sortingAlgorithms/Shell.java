@@ -7,7 +7,7 @@ public class Shell {
             for (int i = gap; i < len; i++) {
                 int j = i;
                 while ((j-gap)>=0 && arr[j-gap]>arr[j]){
-                    Swap.arr(arr, j, j-gap);
+                    arrayFunc.swapArr(arr, j, j-gap);
                     j = j-gap;
                 }
             }
@@ -20,7 +20,7 @@ public class Shell {
             for (int i = gap; i < len; i++) {
                 int j = i;
                 while ((j-gap)>=0 && arr[j-gap]>arr[j]){
-                    Swap.arr(arr, j, j-gap);
+                    arrayFunc.swapArr(arr, j, j-gap);
                     j = j-gap;
                 }
             }

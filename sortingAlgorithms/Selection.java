@@ -9,7 +9,7 @@ public class Selection {
                     minInd = j;
                 }
             }
-            Swap.arr(arr,i,minInd);
+            arrayFunc.swapArr(arr,i,minInd);
         }
     }
     public static void sort(int[] arr) {
@@ -20,7 +20,7 @@ public class Selection {
                     minInd = j;
                 }
             }
-            Swap.arr(arr,i,minInd);
+            arrayFunc.swapArr(arr,i,minInd);
         }
     }
 }

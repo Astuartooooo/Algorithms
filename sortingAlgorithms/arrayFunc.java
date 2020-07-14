@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class arrayFunc {
     public static int[] split(int[] arr, int start, int end){
@@ -53,5 +54,19 @@ public class arrayFunc {
             arr[i] =(double)((int) ((Math.random()*(upbound-lowbound)+lowbound)*100))/100;
         }
         return arr;
+    }
+
+    public static void swapArr(int[] arr,int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    public static void swapArr(double[] arr, int i,int j){
+        double temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    public static void swapList(ArrayList list, int i, int j){
+        Collections.swap(list,  i,  j);
     }
 }
